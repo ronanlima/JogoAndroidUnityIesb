@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3698929153299703420}
   - component: {fileID: 163799395}
   - component: {fileID: 163799394}
+  - component: {fileID: 163799400}
   m_Layer: 0
   m_Name: PlayerIdle
   m_TagString: Untagged
@@ -136,7 +137,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &163799394
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -153,3 +154,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.054323196, y: 0}
   m_Size: {x: 2.0492134, y: 4.86}
   m_Direction: 0
+--- !u!114 &163799400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3698929153299703419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4d48ff03c1e42bb921d809fc1c7f32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  jumpForce: 2
+  slideForce: 6
+  life: 100

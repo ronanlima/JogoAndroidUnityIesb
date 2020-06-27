@@ -8,14 +8,12 @@ public class PlayerController : MonoBehaviour
 
     //Propriedades de controle
     public float moveSpeed =10f;
-    public float jumpForce = 0.5f;
+    public float jumpForce = 6f;
     public float slideForce = 6;
     public int life = 100;
     private bool isJump = false;
     private bool isDead = false;
-    private float inJump = 0;
     private float inSlide = 0;
-
 
     //Recursos usados no GameObject
     private SpriteRenderer playerSpriteRenderer;
@@ -24,6 +22,7 @@ public class PlayerController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
+        Debug.Log("Start");
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
@@ -34,6 +33,18 @@ public class PlayerController : MonoBehaviour
             Mover();
             Jump();
             Slider();
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.name == "TreeBlock" || collision.gameObject.name == "GroundColide01"
+            || collision.gameObject.name == "GroundColide02" || collision.gameObject.name == "GroundColide03"
+            || collision.gameObject.name == "Crate") {
+                Debug.Log(collision.gameObject.name);
+            if (isJump) {
+                isJump = false;
+            }
+            playerAnimator.SetBool("isJump", isJump);
+        }
     }
 
     bool playerDead() {
@@ -76,23 +87,13 @@ public class PlayerController : MonoBehaviour
         if (playerDead()) {
             return;
         }
-        if(Input.GetButtonDown("Jump") && inJump <= 0){
+        if(Input.GetButtonDown("Jump") && !isJump){
             playerRigidBody.AddForce(
                 new Vector2(0f, jumpForce),
                 ForceMode2D.Impulse
             );
             isJump = true;
             playerAnimator.SetBool("isJump", isJump);
-            inJump = jumpForce;
-        }
-
-        if(inJump <= 0){
-             isJump = false;
-             playerAnimator.SetBool("isJump", isJump);
-        }
-
-        if(inJump>0){
-            inJump -= Time.deltaTime *(jumpForce/2);
         }
     }
 
