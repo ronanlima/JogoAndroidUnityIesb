@@ -19,10 +19,10 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer playerSpriteRenderer;
     private Rigidbody2D playerRigidBody;
     private Animator playerAnimator;
+    public SpriteRenderer skeletonSpriteRenderer;
 
     // Start is called before the first frame update
     void Start() {
-        Debug.Log("Start");
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
@@ -35,16 +35,37 @@ public class PlayerController : MonoBehaviour
             Slider();
     }
 
-    void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.name == "TreeBlock" || collision.gameObject.name == "GroundColide01"
-            || collision.gameObject.name == "GroundColide02" || collision.gameObject.name == "GroundColide03"
-            || collision.gameObject.name == "Crate") {
-                Debug.Log(collision.gameObject.name);
-            if (isJump) {
-                isJump = false;
-            }
-            playerAnimator.SetBool("isJump", isJump);
+    void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.name == "TreeBlock" || col.gameObject.name == "GroundColide01"
+            || col.gameObject.name == "GroundColide02" || col.gameObject.name == "GroundColide03"
+            || col.gameObject.name == "Crate") {
+            setJumpFalse();
         }
+        if (col.gameObject.name == "Skeleton") {
+            Vector3 contactPoint = col.contacts[0].point;
+            Vector3 center = col.collider.bounds.center;
+            bool top = contactPoint.y > center.y;
+            if (top) {
+                setJumpFalse();
+                // Destroy(col.gameObject);
+                Debug.Log(skeletonSpriteRenderer.transform.position);
+                Vector3 pos = skeletonSpriteRenderer.transform.position;
+                // Vector3 rot = skeletonSpriteRenderer.transform.rotation;
+                // rot = new Vector3(180f, 0, -0.25f);
+                pos = new Vector3(0, -5.25f, 0);
+                skeletonSpriteRenderer.transform.position = pos;
+                skeletonSpriteRenderer.transform.eulerAngles = new Vector3(180f, 0, -0.25f);
+                // skeletonSpriteRenderer.transform.Rotate(Vector3(180f, 0, -0.25f));
+                skeletonSpriteRenderer.transform.localRotation = Quaternion.Euler(new Vector3(180f,0,-0.25f));
+                col.gameObject.transform.localRotation = Quaternion.Euler(new Vector3(180f,0,-0.25f));
+                // skeletonSpriteRenderer.transform.rotation = rot;
+            }
+        }
+    }
+
+    void setJumpFalse() {
+        isJump = false;
+        playerAnimator.SetBool("isJump", isJump);
     }
 
     bool playerDead() {

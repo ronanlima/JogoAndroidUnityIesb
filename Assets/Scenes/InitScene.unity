@@ -1863,6 +1863,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.1641045, y: 1.28}
   m_EdgeRadius: 0
+--- !u!212 &1005043857 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5489405191544488782, guid: de8a35218bdb34e328acc1ddc064ddb6,
+    type: 3}
+  m_PrefabInstance: {fileID: 55900373}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1005043858 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5489405191544488777, guid: de8a35218bdb34e328acc1ddc064ddb6,
@@ -3359,6 +3365,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 163799400, guid: b80401af631104f0291ff9e3b281875c, type: 3}
+      propertyPath: skeletonSpriteRenderer
+      value: 
+      objectReference: {fileID: 1005043857}
+    - target: {fileID: 163799400, guid: b80401af631104f0291ff9e3b281875c, type: 3}
+      propertyPath: jumpForce
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3698929153299703419, guid: b80401af631104f0291ff9e3b281875c,
         type: 3}
       propertyPath: m_Name
