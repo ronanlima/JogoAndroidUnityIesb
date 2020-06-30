@@ -58,6 +58,9 @@ public class PlayerController : MonoBehaviour
                 // skeletonSpriteRenderer.transform.Rotate(Vector3(180f, 0, -0.25f));
                 skeletonSpriteRenderer.transform.localRotation = Quaternion.Euler(new Vector3(180f,0,-0.25f));
                 col.gameObject.transform.localRotation = Quaternion.Euler(new Vector3(180f,0,-0.25f));
+                
+                skeletonSpriteRenderer.flipY = true; // rotaciona com sucesso
+                skeletonSpriteRenderer.GetComponent<Animator>().enabled = false; //destrói o gameobject
                 // skeletonSpriteRenderer.transform.rotation = rot;
             }
         }
