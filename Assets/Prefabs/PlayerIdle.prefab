@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  jumpForce: 2
+  jumpForce: 6
   slideForce: 6
   life: 100
+  skeletonSpriteRenderer: {fileID: 0}

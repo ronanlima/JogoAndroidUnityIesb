@@ -47,21 +47,6 @@ public class PlayerController : MonoBehaviour
             bool top = contactPoint.y > center.y;
             if (top) {
                 setJumpFalse();
-                // Destroy(col.gameObject);
-                Debug.Log(skeletonSpriteRenderer.transform.position);
-                Vector3 pos = skeletonSpriteRenderer.transform.position;
-                // Vector3 rot = skeletonSpriteRenderer.transform.rotation;
-                // rot = new Vector3(180f, 0, -0.25f);
-                pos = new Vector3(0, -5.25f, 0);
-                skeletonSpriteRenderer.transform.position = pos;
-                skeletonSpriteRenderer.transform.eulerAngles = new Vector3(180f, 0, -0.25f);
-                // skeletonSpriteRenderer.transform.Rotate(Vector3(180f, 0, -0.25f));
-                skeletonSpriteRenderer.transform.localRotation = Quaternion.Euler(new Vector3(180f,0,-0.25f));
-                col.gameObject.transform.localRotation = Quaternion.Euler(new Vector3(180f,0,-0.25f));
-                
-                skeletonSpriteRenderer.flipY = true; // rotaciona com sucesso
-                skeletonSpriteRenderer.GetComponent<Animator>().enabled = false; //destrói o gameobject
-                // skeletonSpriteRenderer.transform.rotation = rot;
             }
         }
     }

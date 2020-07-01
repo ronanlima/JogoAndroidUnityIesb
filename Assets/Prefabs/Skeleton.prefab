@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5489405191544488782}
   - component: {fileID: 1307725813}
   - component: {fileID: 1005043856}
+  - component: {fileID: 5489405192711670972}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Untagged
@@ -93,7 +94,7 @@ Animator:
   m_GameObject: {fileID: 5489405191544488776}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fbe35c2c02ec74265a802cc32fd57faf, type: 2}
+  m_Controller: {fileID: 9100000, guid: 970af785013e84740bbf5b46d00730fe, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -128,3 +129,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.02, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &5489405192711670972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5489405191544488776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e52f352287c64278990dcdf66e305df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
