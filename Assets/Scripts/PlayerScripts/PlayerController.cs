@@ -30,15 +30,13 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-            Mover();
-            Jump();
-            Slider();
+        Mover();
+        Jump();
+        Slider();
     }
 
     void OnCollisionEnter2D(Collision2D col) {
-        if (col.gameObject.name == "TreeBlock" || col.gameObject.name == "GroundColide01"
-            || col.gameObject.name == "GroundColide02" || col.gameObject.name == "GroundColide03"
-            || col.gameObject.name == "Crate") {
+        if (col.gameObject.layer == 8) {
             setJumpFalse();
         }
         if (col.gameObject.name == "Skeleton") {

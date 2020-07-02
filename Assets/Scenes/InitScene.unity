@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8005105}
   - component: {fileID: 8005106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TombStone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 48222986}
   - component: {fileID: 48222987}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,6 +295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 5489405191544488776, guid: de8a35218bdb34e328acc1ddc064ddb6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5489405191544488777, guid: de8a35218bdb34e328acc1ddc064ddb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -362,7 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 77729297}
   - component: {fileID: 77729298}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 106343687}
   - component: {fileID: 106343688}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 231787041}
   - component: {fileID: 231787042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bush (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +611,7 @@ GameObject:
   - component: {fileID: 287288770}
   - component: {fileID: 287288769}
   - component: {fileID: 287288771}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundColide03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -719,7 +724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 372515243}
   - component: {fileID: 372515244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArrowSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -800,7 +805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 405251387}
   - component: {fileID: 405251388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BoneGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -997,7 +1002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 531043462}
   - component: {fileID: 531043463}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1079,7 +1084,7 @@ GameObject:
   - component: {fileID: 559660372}
   - component: {fileID: 559660373}
   - component: {fileID: 559660374}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1186,7 +1191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 623811070}
   - component: {fileID: 623811071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1267,7 +1272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 684330296}
   - component: {fileID: 684330297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1348,7 +1353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 773777714}
   - component: {fileID: 773777715}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1429,7 +1434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 844491599}
   - component: {fileID: 844491600}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1510,7 +1515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 876657425}
   - component: {fileID: 876657426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TombStone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1591,7 +1596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927087203}
   - component: {fileID: 927087204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1673,7 +1678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941395997}
   - component: {fileID: 941395998}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TombStone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1755,7 +1760,7 @@ GameObject:
   - component: {fileID: 948317682}
   - component: {fileID: 948317681}
   - component: {fileID: 948317683}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundColide02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1100918311}
   - component: {fileID: 1100918312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1966,7 +1971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1105255751}
   - component: {fileID: 1105255752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2054,7 +2059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1331351805}
   - component: {fileID: 1331351806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TombStone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2207,7 +2212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564422646}
   - component: {fileID: 1564422647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2289,7 +2294,7 @@ GameObject:
   - component: {fileID: 1629358344}
   - component: {fileID: 1629358343}
   - component: {fileID: 1629358345}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundColide01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2408,7 +2413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1819790988}
   - component: {fileID: 1819790989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2489,7 +2494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1824048098}
   - component: {fileID: 1824048099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2570,7 +2575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1880555832}
   - component: {fileID: 1880555833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2651,7 +2656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966848288}
   - component: {fileID: 1966848289}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TombStone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2732,7 +2737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976633608}
   - component: {fileID: 1976633609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2813,7 +2818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2009513508}
   - component: {fileID: 2009513509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2894,7 +2899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018646224}
   - component: {fileID: 2018646225}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3056,7 +3061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2090429288}
   - component: {fileID: 2090429289}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3137,7 +3142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2097157483}
   - component: {fileID: 2097157484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bush (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3218,7 +3223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105170487}
   - component: {fileID: 2105170488}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3451,6 +3456,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 5489405191544488776, guid: de8a35218bdb34e328acc1ddc064ddb6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5489405191544488777, guid: de8a35218bdb34e328acc1ddc064ddb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3511,7 +3521,8 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1307725813, guid: de8a35218bdb34e328acc1ddc064ddb6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: de8a35218bdb34e328acc1ddc064ddb6, type: 3}
 --- !u!1 &5489405192711670971 stripped
 GameObject:

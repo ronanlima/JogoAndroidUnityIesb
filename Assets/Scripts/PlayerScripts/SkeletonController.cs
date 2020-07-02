@@ -17,14 +17,14 @@ public class SkeletonController : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D col) {
-        if (col.gameObject.name == "PlayerIdle") {
-            Vector3 contactPoint = col.contacts[0].point;
-            Vector3 center = col.collider.bounds.center;
-            bool top = contactPoint.y < center.y;
-            if (top) {
-                skeletonSpriteRenderer.flipY = true;
-                skeletonSpriteRenderer.gameObject.GetComponent<Animator>().speed = 0f;
-            }
-        }
+        // if (col.gameObject.name == "PlayerIdle") {
+        //     Vector3 contactPoint = col.contacts[0].point;
+        //     Vector3 center = col.collider.bounds.center;
+        //     bool top = contactPoint.y < center.y;
+        //     if (top) {
+        //         skeletonSpriteRenderer.flipY = true;
+        //         skeletonSpriteRenderer.gameObject.GetComponent<Animator>().speed = 0f;
+        //     }
+        // }
     }
 }
