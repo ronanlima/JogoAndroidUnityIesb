@@ -22,18 +22,25 @@ public class PlayerController : MonoBehaviour
     private Animator playerAnimator;
     public SpriteRenderer skeletonSpriteRenderer;
 
-    // Start is called before the first frame update
     void Start() {
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update() {
         Mover();
         Jump();
         Slider();
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name.Equals("InitScene")) {
+            StayInsideScene();
+        }
+    }
+
+    void StayInsideScene() {
+        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -8.62f, 8.62f),
+            Mathf.Clamp(transform.position.y, -10f, 4.4f));
     }
 
     void OnCollisionEnter2D(Collision2D col) {
