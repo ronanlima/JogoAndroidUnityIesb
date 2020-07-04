@@ -1,0 +1,2756 @@
+fileFormatVersion: 2
+guid: 6489a12b8590745bdb14015bd234b27e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6605895173340245770
+    second: Armas_0
+  - first:
+      213: 9108163279018641820
+    second: Armas_1
+  - first:
+      213: -6266116242694421834
+    second: Armas_2
+  - first:
+      213: -1277141773960996178
+    second: Armas_3
+  - first:
+      213: 6524062796480147222
+    second: Armas_4
+  - first:
+      213: 1314446795663527177
+    second: Armas_5
+  - first:
+      213: 557692286568529788
+    second: Armas_6
+  - first:
+      213: 5618311874831494708
+    second: Armas_7
+  - first:
+      213: 4002239440427549279
+    second: Armas_8
+  - first:
+      213: -2042423980533338570
+    second: Armas_9
+  - first:
+      213: 6937523279768765334
+    second: Armas_10
+  - first:
+      213: -7891960940138201444
+    second: Armas_11
+  - first:
+      213: -2866858583263772528
+    second: Armas_12
+  - first:
+      213: -707630117231890830
+    second: Armas_13
+  - first:
+      213: 3002705631872261828
+    second: Armas_14
+  - first:
+      213: 1972703828794781933
+    second: Armas_15
+  - first:
+      213: -5528099045550810615
+    second: Armas_16
+  - first:
+      213: -720341475930385679
+    second: Armas_17
+  - first:
+      213: -3450101139867348989
+    second: Armas_18
+  - first:
+      213: 1998832573338833927
+    second: Armas_19
+  - first:
+      213: 1525100153337613493
+    second: Armas_20
+  - first:
+      213: -7109073514359288620
+    second: Armas_21
+  - first:
+      213: -8970987515629478093
+    second: Armas_22
+  - first:
+      213: -1699292971817409960
+    second: Armas_23
+  - first:
+      213: 8392866455930920010
+    second: Armas_24
+  - first:
+      213: -1153804566425274886
+    second: Armas_25
+  - first:
+      213: -6689114393721233943
+    second: Armas_26
+  - first:
+      213: 4241142740315763248
+    second: Armas_27
+  - first:
+      213: 943969566853080566
+    second: Armas_28
+  - first:
+      213: 5716919954686664409
+    second: Armas_29
+  - first:
+      213: -2319163125844979926
+    second: Armas_30
+  - first:
+      213: -6559310902182085617
+    second: Armas_31
+  - first:
+      213: 5865377990235991846
+    second: Armas_32
+  - first:
+      213: -8793344107185657864
+    second: Armas_33
+  - first:
+      213: -8641855462689144102
+    second: Armas_34
+  - first:
+      213: 953626245643227235
+    second: Armas_35
+  - first:
+      213: 4956986319108008307
+    second: Armas_36
+  - first:
+      213: -5909468491027032367
+    second: Armas_37
+  - first:
+      213: 4774342026650531620
+    second: Armas_38
+  - first:
+      213: -933518779727496137
+    second: Armas_39
+  - first:
+      213: -129917743696647673
+    second: Armas_40
+  - first:
+      213: 8143520239550056031
+    second: Armas_41
+  - first:
+      213: 4346264551215580841
+    second: Armas_42
+  - first:
+      213: -5836259820880010834
+    second: Armas_43
+  - first:
+      213: 4346809972338415742
+    second: Armas_44
+  - first:
+      213: 4300892275858635280
+    second: Armas_45
+  - first:
+      213: 4377852802665680367
+    second: Armas_46
+  - first:
+      213: -330797970397918344
+    second: Armas_47
+  - first:
+      213: 3881345532006706332
+    second: Armas_48
+  - first:
+      213: 9010618735440998390
+    second: Armas_49
+  - first:
+      213: -8091053632337577486
+    second: Armas_50
+  - first:
+      213: -2740136589107425376
+    second: Armas_51
+  - first:
+      213: -762722287352524128
+    second: Armas_52
+  - first:
+      213: -7345473564553048346
+    second: Armas_53
+  - first:
+      213: 8020326542105680702
+    second: Armas_54
+  - first:
+      213: -3576221149837668248
+    second: Armas_55
+  - first:
+      213: 1294720118226391922
+    second: Armas_56
+  - first:
+      213: 3230977249310912955
+    second: Armas_57
+  - first:
+      213: 1853911044069390809
+    second: Armas_58
+  - first:
+      213: 2817319211487775307
+    second: Armas_59
+  - first:
+      213: 7614725031762508966
+    second: Armas_60
+  - first:
+      213: -2263538910893713497
+    second: Armas_61
+  - first:
+      213: 7382414638856848582
+    second: Armas_62
+  - first:
+      213: -2972904683577782171
+    second: Armas_63
+  - first:
+      213: -5256491623974655924
+    second: Armas_64
+  - first:
+      213: -4807546717163531560
+    second: Armas_65
+  - first:
+      213: -2813300533122634391
+    second: Armas_66
+  - first:
+      213: 3313699485494704054
+    second: Armas_67
+  - first:
+      213: 3075543565667526131
+    second: Armas_68
+  - first:
+      213: -7822540332295185562
+    second: Armas_69
+  - first:
+      213: 1389469999903464569
+    second: Armas_70
+  - first:
+      213: -3274266171176241119
+    second: Armas_71
+  - first:
+      213: -5107007370780350090
+    second: Armas_72
+  - first:
+      213: 9003759114770209797
+    second: Armas_73
+  - first:
+      213: 6807550313608379495
+    second: Armas_74
+  - first:
+      213: -7861653444206325889
+    second: Armas_75
+  - first:
+      213: 1054541336084141087
+    second: Armas_76
+  - first:
+      213: 5730669689202897939
+    second: Armas_77
+  - first:
+      213: 2225735756811630496
+    second: Armas_78
+  - first:
+      213: 3468979569852225569
+    second: Armas_79
+  - first:
+      213: -7055840275770505008
+    second: Armas_80
+  - first:
+      213: -6170991757678729711
+    second: Armas_81
+  - first:
+      213: -1946664406604226023
+    second: Armas_82
+  - first:
+      213: -3577583528888348732
+    second: Armas_83
+  - first:
+      213: -7689815004167713338
+    second: Armas_84
+  - first:
+      213: 26300786357909327
+    second: Armas_85
+  - first:
+      213: -2571964405765203867
+    second: Armas_86
+  - first:
+      213: 938437537948776494
+    second: Armas_87
+  - first:
+      213: -9117889582250467600
+    second: Armas_88
+  - first:
+      213: 5188752227396604954
+    second: Armas_89
+  - first:
+      213: 5172456752187608005
+    second: Armas_90
+  - first:
+      213: 271573925391611641
+    second: Armas_91
+  - first:
+      213: 6365753760497734367
+    second: Armas_92
+  - first:
+      213: -2167675770920640382
+    second: Armas_93
+  - first:
+      213: -1857918475399035709
+    second: Armas_94
+  - first:
+      213: 285988942957362156
+    second: Armas_95
+  - first:
+      213: -3256142132651443984
+    second: Armas_96
+  - first:
+      213: 5887888993947683479
+    second: Armas_97
+  - first:
+      213: -1307447730770282192
+    second: Armas_98
+  - first:
+      213: 5744310282551945291
+    second: Armas_99
+  - first:
+      213: -1964021907109883586
+    second: Armas_100
+  - first:
+      213: 3590755990647906919
+    second: Armas_101
+  - first:
+      213: 3194633994910883835
+    second: Armas_102
+  - first:
+      213: -6432142560626472250
+    second: Armas_103
+  - first:
+      213: 7454338209970494020
+    second: Armas_104
+  - first:
+      213: 3474108639989185712
+    second: Armas_105
+  - first:
+      213: -2926696770698488324
+    second: Armas_106
+  - first:
+      213: 1412810150769013091
+    second: Armas_107
+  - first:
+      213: -2441781992104799505
+    second: Armas_108
+  - first:
+      213: -4763093833119642602
+    second: Armas_109
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armas_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 633
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fa96e19aadcab50800000000000000
+      internalID: 6605895173340245770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 631
+        width: 84
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99c922ce32b66e70800000000000000
+      internalID: 9108163279018641820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 613
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2c4e00a784a09a0800000000000000
+      internalID: -6266116242694421834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 617
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa1e3bb25ea64ee0800000000000000
+      internalID: -1277141773960996178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_4
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 627
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f6a842c802a8a50800000000000000
+      internalID: 6524062796480147222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_5
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 627
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dccab756add3210800000000000000
+      internalID: 1314446795663527177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_6
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 627
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f74ea0e225db700800000000000000
+      internalID: 557692286568529788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_7
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 627
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ea0b012e048fd40800000000000000
+      internalID: 5618311874831494708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 593
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f520eb8f09fca8730800000000000000
+      internalID: 4002239440427549279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 593
+        width: 108
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e229ff53ad7a3e0800000000000000
+      internalID: -2042423980533338570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_10
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 579
+        width: 76
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693ce979aa8074060800000000000000
+      internalID: 6937523279768765334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_11
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 599
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9efdcd965f1a7290800000000000000
+      internalID: -7891960940138201444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_12
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 583
+        width: 88
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090884bce4fd638d0800000000000000
+      internalID: -2866858583263772528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_13
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 605
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e6606582efd26f0800000000000000
+      internalID: -707630117231890830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_14
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 605
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce9fc8fcd0cba920800000000000000
+      internalID: 3002705631872261828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_15
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 595
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0bd523ea3706b10800000000000000
+      internalID: 1972703828794781933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_16
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 595
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a94ca053f3843b0800000000000000
+      internalID: -5528099045550810615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 551
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f250328e35d006f0800000000000000
+      internalID: -720341475930385679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 553
+        width: 84
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300590fea47ce10d0800000000000000
+      internalID: -3450101139867348989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_19
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 561
+        width: 84
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704575b92a74dbb10800000000000000
+      internalID: 1998832573338833927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_20
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 583
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc0596528e3a2510800000000000000
+      internalID: 1525100153337613493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_21
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 583
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc0a7edd4f775d90800000000000000
+      internalID: -7109073514359288620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_22
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 543
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fd0768266a08380800000000000000
+      internalID: -8970987515629478093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_23
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 559
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852618d9b06ea68e0800000000000000
+      internalID: -1699292971817409960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_24
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 547
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cdd090393797470800000000000000
+      internalID: 8392866455930920010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 561
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af57ff52cdcdcffe0800000000000000
+      internalID: -1153804566425274886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_26
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 561
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed1b4c36ed7b23a0800000000000000
+      internalID: -6689114393721233943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_27
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 511
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0327f3e0ad09bda30800000000000000
+      internalID: 4241142740315763248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 515
+        width: 84
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5ae07d157a91d00800000000000000
+      internalID: 943969566853080566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_29
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 509
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ded074c864965f40800000000000000
+      internalID: 5716919954686664409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_30
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 535
+        width: 78
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f43dbac6da0dfd0800000000000000
+      internalID: -2319163125844979926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_31
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 521
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cf618bc75a8f4a0800000000000000
+      internalID: -6559310902182085617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_32
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 513
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f296db432066150800000000000000
+      internalID: 5865377990235991846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_33
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 529
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7ac67af14c7f580800000000000000
+      internalID: -8793344107185657864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_34
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 529
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad205224e36f11880800000000000000
+      internalID: -8641855462689144102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 477
+        width: 108
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360dd049406fb3d00800000000000000
+      internalID: 953626245643227235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_36
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 505
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37967e24bc0cac440800000000000000
+      internalID: 4956986319108008307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_37
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 483
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d658f497b95dfda0800000000000000
+      internalID: -5909468491027032367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_38
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 479
+        width: 88
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42739b617ced14240800000000000000
+      internalID: 4774342026650531620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_39
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 497
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cbf27ad997b03f0800000000000000
+      internalID: -933518779727496137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_40
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 497
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ae0fc1080723ef0800000000000000
+      internalID: -129917743696647673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 471
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56c59bf288930170800000000000000
+      internalID: 8143520239550056031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_42
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 475
+        width: 80
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6c313f498015c30800000000000000
+      internalID: 4346264551215580841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_43
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 479
+        width: 76
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1ef8f5d90710fa0800000000000000
+      internalID: -5836259820880010834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_44
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 477
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e785b53b3a8f25c30800000000000000
+      internalID: 4346809972338415742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_45
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 477
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a76cfdcb6dfab30800000000000000
+      internalID: 4300892275858635280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_46
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 429
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed06dddde141cc30800000000000000
+      internalID: 4377852802665680367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_47
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 437
+        width: 134
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b0302aff4c86bf0800000000000000
+      internalID: -330797970397918344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_48
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 439
+        width: 100
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c2fc5723f4dd530800000000000000
+      internalID: 3881345532006706332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_49
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 449
+        width: 100
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffa074eff52c0d70800000000000000
+      internalID: 9010618735440998390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_50
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 443
+        width: 84
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f972e1f69dc6bf80800000000000000
+      internalID: -8091053632337577486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_51
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 443
+        width: 112
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af83324a4419f9d0800000000000000
+      internalID: -2740136589107425376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_52
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 457
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a25418ee144a65f0800000000000000
+      internalID: -762722287352524128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_53
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 457
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee0bc506b2af0a90800000000000000
+      internalID: -7345473564553048346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_54
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 423
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b98dc1f7ced4f60800000000000000
+      internalID: 8020326542105680702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_55
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 405
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860dfa5dfc5be5ec0800000000000000
+      internalID: -3576221149837668248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_56
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 409
+        width: 88
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2739f6a7615c7f110800000000000000
+      internalID: 1294720118226391922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_57
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 435
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1bb8690bcb6dc20800000000000000
+      internalID: 3230977249310912955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_58
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 435
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9fdeaa54a6ab910800000000000000
+      internalID: 1853911044069390809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_59
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 435
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4acc9365e0291720800000000000000
+      internalID: 2817319211487775307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_60
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 435
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acba746210fca960800000000000000
+      internalID: 7614725031762508966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 389
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7d7e07a5b4690e0800000000000000
+      internalID: -2263538910893713497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_62
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 399
+        width: 108
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c4b5100b937660800000000000000
+      internalID: 7382414638856848582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_63
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 405
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560504001fe1eb6d0800000000000000
+      internalID: -2972904683577782171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_64
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 419
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48ac24d7b03d07b0800000000000000
+      internalID: -5256491623974655924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_65
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 371
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d25f527bb9284db0800000000000000
+      internalID: -4807546717163531560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_66
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 397
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96deec4121625f8d0800000000000000
+      internalID: -2813300533122634391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_67
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 369
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b77e451020acfd20800000000000000
+      internalID: 3313699485494704054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_68
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 375
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5e9daf3968eaa20800000000000000
+      internalID: 3075543565667526131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_69
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 349
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b116c6301c07390800000000000000
+      internalID: -7822540332295185562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_70
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 361
+        width: 84
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cde4a6a93684310800000000000000
+      internalID: 1389469999903464569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_71
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 371
+        width: 78
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12836fed3487f82d0800000000000000
+      internalID: -3274266171176241119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_72
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 323
+        width: 84
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679e557bad34029b0800000000000000
+      internalID: -5107007370780350090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_73
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 341
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c501ff537c3fc70800000000000000
+      internalID: 9003759114770209797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_74
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 285
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cf93931f6497e50800000000000000
+      internalID: 6807550313608379495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_75
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 293
+        width: 106
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f0bd668dbc5e290800000000000000
+      internalID: -7861653444206325889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_76
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 301
+        width: 88
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14d24a02cb72ae00800000000000000
+      internalID: 1054541336084141087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_77
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 303
+        width: 104
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314790e48bd678f40800000000000000
+      internalID: 5730669689202897939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_78
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 251
+        width: 108
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a774acd0e663ee10800000000000000
+      internalID: 2225735756811630496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_79
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 263
+        width: 106
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12811221a8a442030800000000000000
+      internalID: 3468979569852225569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_80
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 273
+        width: 116
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d80ec217ae941e90800000000000000
+      internalID: -7055840275770505008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_81
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 267
+        width: 130
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11622b311bb3c5aa0800000000000000
+      internalID: -6170991757678729711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_82
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 257
+        width: 104
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912657b390f0cf4e0800000000000000
+      internalID: -1946664406604226023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_83
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 211
+        width: 84
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf425e3cbed95ec0800000000000000
+      internalID: -3577583528888348732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_84
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 241
+        width: 88
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd4d100ff9484590800000000000000
+      internalID: -7689815004167713338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_85
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 231
+        width: 104
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f473d240d607d5000800000000000000
+      internalID: 26300786357909327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_86
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 225
+        width: 106
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5689a63fffb8e4cd0800000000000000
+      internalID: -2571964405765203867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_87
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 213
+        width: 88
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28345df7fff50d00800000000000000
+      internalID: 938437537948776494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_88
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 189
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fed9bccbbfb67180800000000000000
+      internalID: -9117889582250467600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_89
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 177
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14dd7dd8a6220840800000000000000
+      internalID: 5188752227396604954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_90
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 185
+        width: 114
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb8632e20248c740800000000000000
+      internalID: 5172456752187608005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_91
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 193
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6b939db03d4c300800000000000000
+      internalID: 271573925391611641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_92
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 193
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd213166153b75850800000000000000
+      internalID: 6365753760497734367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 143
+        width: 108
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280ed060f5edae1e0800000000000000
+      internalID: -2167675770920640382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_94
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 153
+        width: 142
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c484348df85736e0800000000000000
+      internalID: -1857918475399035709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_95
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 159
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebb9aaad6908f300800000000000000
+      internalID: 285988942957362156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_96
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 159
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8b02d6bfbdfc2d0800000000000000
+      internalID: -3256142132651443984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_97
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 159
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a0f2938dbf5b150800000000000000
+      internalID: 5887888993947683479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_98
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 151
+        width: 108
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039fb0d47330bdde0800000000000000
+      internalID: -1307447730770282192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_99
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 125
+        width: 94
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48e12f64c3e7bf40800000000000000
+      internalID: 5744310282551945291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_100
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 97
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3151a73b746eb4e0800000000000000
+      internalID: -1964021907109883586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_101
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 97
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762aca18c8de4d130800000000000000
+      internalID: 3590755990647906919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_102
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 141
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffdc0641be955c20800000000000000
+      internalID: 3194633994910883835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_103
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 97
+        width: 120
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca00398b607cb6a0800000000000000
+      internalID: -6432142560626472250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_104
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 117
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a99e07b11237760800000000000000
+      internalID: 7454338209970494020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_105
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 103
+        width: 132
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcbba5c663863030800000000000000
+      internalID: 3474108639989185712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_106
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 97
+        width: 88
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5db391bc84267d0800000000000000
+      internalID: -2926696770698488324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_107
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 97
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36137a3c85f4b9310800000000000000
+      internalID: 1412810150769013091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_108
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 69
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2d5ad173c0d1ed0800000000000000
+      internalID: -2441781992104799505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_109
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 35
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ccc0d056716edb0800000000000000
+      internalID: -4763093833119642602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
