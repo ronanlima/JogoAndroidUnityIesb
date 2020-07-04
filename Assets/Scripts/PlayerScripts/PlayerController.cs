@@ -39,6 +39,11 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.layer == 8) {
             setJumpFalse();
         }
+        if (col.gameObject.layer == 9)
+        {
+            life = 0;
+            playerAnimator.SetTrigger("tgrDead");
+        }
         if (col.gameObject.name == "Skeleton") {
             Vector3 contactPoint = col.contacts[0].point;
             Vector3 center = col.collider.bounds.center;
