@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
         {
             life = 0;
             playerAnimator.SetTrigger("tgrDead");
-            SceneManager.LoadScene("MenuScene");
+            SceneManager.LoadScene("GameOver");
         }
         if (col.gameObject.name == "Skeleton") {
             Vector3 contactPoint = col.contacts[0].point;
