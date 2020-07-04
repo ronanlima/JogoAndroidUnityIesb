@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class PlayerController : MonoBehaviour
         {
             life = 0;
             playerAnimator.SetTrigger("tgrDead");
+            SceneManager.LoadScene("MenuScene");
         }
         if (col.gameObject.name == "Skeleton") {
             Vector3 contactPoint = col.contacts[0].point;
