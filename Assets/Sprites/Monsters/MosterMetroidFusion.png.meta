@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 79498109e8b92488c8d347ff8f81691d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5007561369337029844
+    second: MosterMetroidFusionIdle0
+  - first:
+      213: -2369545766308577818
+    second: MosterMetroidFusionIdle1
+  - first:
+      213: -3800196200924417315
+    second: MosterMetroidFusionIdle2
+  - first:
+      213: 8380773830299160086
+    second: MosterMetroidFusionAtack1
+  - first:
+      213: -1871865897461607350
+    second: MosterMetroidFusionAtack2
+  - first:
+      213: -6464073578792621553
+    second: MosterMetroidFusionAtack3
+  - first:
+      213: 4368465903403683011
+    second: MosterMetroidFusionIdle3
+  - first:
+      213: -7228628094372117571
+    second: MosterMetroidFusionIdle4
+  - first:
+      213: -2335518875023761005
+    second: MosterMetroidFusionIdle5
+  - first:
+      213: 8564959676976821327
+    second: MosterMetroidFusionWalk1
+  - first:
+      213: 6105074460337208598
+    second: MosterMetroidFusionWalk2
+  - first:
+      213: -2137953255049173753
+    second: MosterMetroidFusionWalk3
+  - first:
+      213: 2047788934306598874
+    second: MosterMetroidFusion_12
+  - first:
+      213: 3614156827565638291
+    second: MosterMetroidFusion_13
+  - first:
+      213: 7760579067893281670
+    second: MosterMetroidFusion_14
+  - first:
+      213: -4184364438964377729
+    second: MosterMetroidFusion_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MosterMetroidFusionIdle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 320
+        width: 124
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d46d42c88e6e7540800000000000000
+      internalID: 5007561369337029844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionIdle1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 320
+        width: 124
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed75201eaead1fd0800000000000000
+      internalID: -2369545766308577818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionIdle2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 318
+        width: 124
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd27c1780bdf24bc0800000000000000
+      internalID: -3800196200924417315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionAtack1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 216
+        width: 120
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e0fd9356d7e4470800000000000000
+      internalID: 8380773830299160086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionAtack2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 215
+        width: 118
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4412a242ebc506e0800000000000000
+      internalID: -1871865897461607350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionAtack3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 215
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ae316045ffa46a0800000000000000
+      internalID: -6464073578792621553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionIdle3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 104
+        width: 124
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc48c11898ef9c30800000000000000
+      internalID: 4368465903403683011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionIdle4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 108
+        width: 124
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db38a8d0c01ceab90800000000000000
+      internalID: -7228628094372117571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionIdle5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 110
+        width: 124
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3912dff05f1969fd0800000000000000
+      internalID: -2335518875023761005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionWalk1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 124
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f447fb57279dcd670800000000000000
+      internalID: 8564959676976821327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionWalk2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3
+        width: 124
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d75b720e499b450800000000000000
+      internalID: 6105074460337208598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MosterMetroidFusionWalk3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 124
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705676687d67452e0800000000000000
+      internalID: -2137953255049173753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: b8c83a82369814a02b3c527446cfbef8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8216216564097573428
+    second: MonsterEsquisito_Idle_0
+  - first:
+      213: -5121075751221111663
+    second: MonsterEsquisito_Idle_1
+  - first:
+      213: 3884680612505791934
+    second: MonsterEsquisito_Idle_2
+  - first:
+      213: -3558282921473434676
+    second: MonsterEsquisito_Idle_3
+  - first:
+      213: 1921734975739452776
+    second: MonsterEsquisito_Walk_1
+  - first:
+      213: -1313686152995745597
+    second: MonsterEsquisito_Walk_2
+  - first:
+      213: -3936817731760189250
+    second: MonsterEsquisito_Walk_3
+  - first:
+      213: 6877303783444954430
+    second: MonsterEsquisito_Walk_4
+  - first:
+      213: 3837492189578345718
+    second: MonsterEsquisito_Walk_5
+  - first:
+      213: 4399192931721121023
+    second: MonsterEsquisito_Walk_6
+  - first:
+      213: -8583486239003642777
+    second: MonsterEsquisito_Walk_7
+  - first:
+      213: 136974346274005002
+    second: MonsterEsquisito_Walk_8
+  - first:
+      213: -1272387171043351146
+    second: MonsterEsquisito_Atack_1
+  - first:
+      213: -6806244595545416382
+    second: MonsterEsquisito_Atack_2
+  - first:
+      213: 857389392301757424
+    second: MonsterEsquisito_03
+  - first:
+      213: -8370374949355366725
+    second: MonsterEsquisito_Atack_3
+  - first:
+      213: 1730507797561996272
+    second: MonsterEsquisito_16
+  - first:
+      213: 2871190047585415482
+    second: MonsterEsquisito_17
+  - first:
+      213: -6469930436239053967
+    second: MonsterEsquisito_18
+  - first:
+      213: 3468510163352287775
+    second: MonsterEsquisito_19
+  - first:
+      213: -6126438948402282059
+    second: MonsterEsquisito_20
+  - first:
+      213: -2766129510379766728
+    second: MonsterEsquisito_21
+  - first:
+      213: 7829968965312184754
+    second: MonsterEsquisito_22
+  - first:
+      213: -318914003504496970
+    second: MonsterEsquisito_23
+  - first:
+      213: 1154848156547141390
+    second: MonsterEsquisito_24
+  - first:
+      213: 4172365304319934322
+    second: MonsterEsquisito_25
+  - first:
+      213: -6787463721169123777
+    second: MonsterEsquisito_26
+  - first:
+      213: -3096878496763079286
+    second: MonsterEsquisito_27
+  - first:
+      213: -3398418927966336217
+    second: MonsterEsquisito_28
+  - first:
+      213: -8041720661655562166
+    second: MonsterEsquisito_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MonsterEsquisito_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 291
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd984bf0922afd80800000000000000
+      internalID: -8216216564097573428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 289
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1945994acb84ee8b0800000000000000
+      internalID: -5121075751221111663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 290
+        width: 79
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd21466f6829e530800000000000000
+      internalID: 3884680612505791934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 291
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb9c3719807e9ec0800000000000000
+      internalID: -3558282921473434676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 193
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dd46557cf5baa10800000000000000
+      internalID: 1921734975739452776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 191
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0d6507769d4cde0800000000000000
+      internalID: -1313686152995745597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 193
+        width: 69
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb099f0912d9d59c0800000000000000
+      internalID: -3936817731760189250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 193
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dbfa08a57117f50800000000000000
+      internalID: 6877303783444954430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 90
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc372480d2814530800000000000000
+      internalID: 3837492189578345718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 90
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc85a9d9a21d0d30800000000000000
+      internalID: 4399192931721121023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 90
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764fbbd2eb451e880800000000000000
+      internalID: -8583486239003642777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 90
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e0053171a6e100800000000000000
+      internalID: 136974346274005002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Atack_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695623dfb92975ee0800000000000000
+      internalID: -1272387171043351146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Atack_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dd714f99c5b81a0800000000000000
+      internalID: -6806244595545416382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_03
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f395521c1f06eb00800000000000000
+      internalID: 857389392301757424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEsquisito_Atack_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb658dae45476db80800000000000000
+      internalID: -8370374949355366725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
