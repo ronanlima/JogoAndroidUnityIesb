@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.layer == 9) {
             life = 0;
             playerDead();
+            System.Threading.Thread.Sleep(1000);
             SceneManager.LoadScene("GameOver");
         }
         if (col.gameObject.name == "Skeleton") {
@@ -59,6 +60,7 @@ public class PlayerController : MonoBehaviour
             } else if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left) {
                 life = 0;
                 playerDead();
+                SceneManager.LoadScene("GameOver");
             }
         }
         if (col.gameObject.name == "SkeletonVertical") {
@@ -66,6 +68,7 @@ public class PlayerController : MonoBehaviour
             if (collisionSide == Collision2DSideType.Bottom) {
                 life = 0;
                 playerDead();
+                SceneManager.LoadScene("GameOver");
             }
         }
     }
