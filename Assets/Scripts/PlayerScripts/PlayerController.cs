@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
 
-    //Propriedades de controle
     public float moveSpeed =10f;
     public float jumpForce = 6f;
     public float slideForce = 6;
@@ -15,8 +14,11 @@ public class PlayerController : MonoBehaviour
     private bool isJump = false;
     private bool isDead = false;
     private float inSlide = 0;
-
-    //Recursos usados no GameObject
+    private int quantItens = 4;
+    private int quantCollected = 0;
+    public SpriteRenderer door;
+    public Sprite openedDoor;
+    public Sprite closedDoor;
     private SpriteRenderer playerSpriteRenderer;
     private Rigidbody2D playerRigidBody;
     private Animator playerAnimator;
@@ -41,6 +43,19 @@ public class PlayerController : MonoBehaviour
     void StayInsideScene() {
         transform.position = new Vector2(Mathf.Clamp(transform.position.x, -8.62f, 8.62f),
             Mathf.Clamp(transform.position.y, -10f, 4.4f));
+    }
+
+    void OnTriggerEnter2D(Collider2D collider) {
+        if (collider.gameObject.CompareTag("Collectable")) {
+            quantCollected++;
+            collider.gameObject.SetActive(false);
+        } else if (collider.gameObject.CompareTag("PointNextScene") && quantCollected == quantItens) {
+            SceneManager.LoadScene("Fase001_01");
+            return;
+        }
+        if (quantCollected == quantItens) {
+            door.sprite = openedDoor;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D col) {
@@ -76,26 +91,24 @@ public class PlayerController : MonoBehaviour
     }
 
     bool playerDead() {
-        Console.Write("playerDead");
         if (life < 1) {
-            Console.Write("playerDead < 1");
             isDead = true;
             playerAnimator.SetBool("tgrDead", isDead);
         }
         if (isDead) {
-            Debug.Log("playerDead - está morto");
+            if (door != null) {
+                door.sprite = closedDoor;
+            }
             Destroy(playerSpriteRenderer.gameObject.GetComponent<CapsuleCollider2D>());
             Destroy(playerSpriteRenderer.gameObject.GetComponent<Rigidbody2D>());
             playerSpriteRenderer.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
-            SceneManager.LoadScene("GameOver");
-            Console.Write("playerDead - está morto");
+            // SceneManager.LoadScene("GameOver"); Deixar comentado até criarmos um contador. Esse trecho não deixa nem executar a animação de morrer, do player
             return true;
         }
         return false;
     }
 
     void Mover() {
-        Console.Write("Mover");
         if (playerDead()) {
             return;
         }
@@ -116,7 +129,6 @@ public class PlayerController : MonoBehaviour
     }
 
     void Jump() {
-        Console.Write("Jump");
         if (playerDead()) {
             return;
         }
@@ -131,7 +143,6 @@ public class PlayerController : MonoBehaviour
     }
 
     void Slider() {
-        Console.Write("Slider");
         if (playerDead()) {
             return;
         }
