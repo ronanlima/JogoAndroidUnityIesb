@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkeletonController : MonoBehaviour
+public class SkeletonVerticalController : MonoBehaviour
 {
     public SpriteRenderer skeletonSpriteRenderer;
     private float lastTime = 0f;
     public float timeLimit = 6f;
-    private float movementAmount = 0.002f;
+    private float movementAmount = 0.0034f;
     private bool isMoving;
     void Start() {
         lastTime = Time.time;
@@ -22,7 +22,8 @@ public class SkeletonController : MonoBehaviour
                 skeletonSpriteRenderer.flipX = !skeletonSpriteRenderer.flipX;
                 movementAmount *= -1;
             }
-            pos.x += movementAmount;
+            pos.y += movementAmount;
+            // Debug.Log(pos.y);
             skeletonSpriteRenderer.transform.position = pos;
         }
     }
@@ -34,11 +35,9 @@ public class SkeletonController : MonoBehaviour
                 Destroy(skeletonSpriteRenderer.gameObject.GetComponent<BoxCollider2D>());
                 skeletonSpriteRenderer.gameObject.GetComponent<SpriteRenderer>().sortingOrder = -1;
                 isMoving = false;
-                skeletonSpriteRenderer.flipY = true;
                 Vector3 pos = skeletonSpriteRenderer.transform.position;
-                pos.y -= 0.35f;
+                pos.x -= 0.35f;
                 skeletonSpriteRenderer.transform.position = pos;
-                skeletonSpriteRenderer.transform.rotation = Quaternion.Euler(skeletonSpriteRenderer.transform.rotation.eulerAngles.x, skeletonSpriteRenderer.transform.rotation.eulerAngles.y, skeletonSpriteRenderer.transform.rotation.z + 9f);
             }
         }
     }

@@ -47,18 +47,25 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.layer == 8) {
             setJumpFalse();
         }
-        if (col.gameObject.layer == 9)
-        {
+        if (col.gameObject.layer == 9) {
             life = 0;
-            playerAnimator.SetTrigger("tgrDead");
+            playerDead();
             SceneManager.LoadScene("GameOver");
         }
         if (col.gameObject.name == "Skeleton") {
-            Vector3 contactPoint = col.contacts[0].point;
-            Vector3 center = col.collider.bounds.center;
-            bool top = contactPoint.y > center.y;
-            if (top) {
+            Collision2DSideType collisionSide = col.GetContactSide();
+            if (collisionSide == Collision2DSideType.Top) {
                 setJumpFalse();
+            } else if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left) {
+                life = 0;
+                playerDead();
+            }
+        }
+        if (col.gameObject.name == "SkeletonVertical") {
+            Collision2DSideType collisionSide = col.GetContactSide();
+            if (collisionSide == Collision2DSideType.Bottom) {
+                life = 0;
+                playerDead();
             }
         }
     }
@@ -76,6 +83,7 @@ public class PlayerController : MonoBehaviour
             playerAnimator.SetBool("tgrDead", isDead);
         }
         if (isDead) {
+            Destroy(playerSpriteRenderer.gameObject.GetComponent<BoxCollider2D>());
             Console.Write("playerDead - está morto");
             return true;
         }
