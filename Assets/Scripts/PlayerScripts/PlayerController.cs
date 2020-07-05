@@ -83,7 +83,10 @@ public class PlayerController : MonoBehaviour
             playerAnimator.SetBool("tgrDead", isDead);
         }
         if (isDead) {
-            Destroy(playerSpriteRenderer.gameObject.GetComponent<BoxCollider2D>());
+            Debug.Log("playerDead - está morto");
+            Destroy(playerSpriteRenderer.gameObject.GetComponent<CapsuleCollider2D>());
+            Destroy(playerSpriteRenderer.gameObject.GetComponent<Rigidbody2D>());
+            playerSpriteRenderer.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
             Console.Write("playerDead - está morto");
             return true;
         }
