@@ -30,7 +30,7 @@ public class SkeletonController : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col) {
         if (col.gameObject.name == "Player") {
             Collision2DSideType collisionSide = col.GetContactSide();
-            if (collisionSide == Collision2DSideType.Right) {
+            if (collisionSide == Collision2DSideType.Top) {
                 Destroy(skeletonSpriteRenderer.gameObject.GetComponent<BoxCollider2D>());
                 skeletonSpriteRenderer.gameObject.GetComponent<SpriteRenderer>().sortingOrder = -1;
                 isMoving = false;
