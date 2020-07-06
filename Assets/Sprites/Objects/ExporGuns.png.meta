@@ -1,0 +1,2195 @@
+fileFormatVersion: 2
+guid: 3c7c2e1dcdc1048e7b67be071d2c7c93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4917658806811482419
+    second: ExporGuns_0
+  - first:
+      213: -3726614950560635768
+    second: ExporGuns_1
+  - first:
+      213: -3109652241255068145
+    second: ExporGuns_2
+  - first:
+      213: 1393641532683654720
+    second: ExporGuns_3
+  - first:
+      213: 1488535862642918439
+    second: ExporGuns_4
+  - first:
+      213: 6796700915105576465
+    second: ExporGuns_5
+  - first:
+      213: -3397324939399744998
+    second: ExporGuns_6
+  - first:
+      213: -2549980044356130906
+    second: ExporGuns_7
+  - first:
+      213: -7412983247493608668
+    second: ExporGuns_8
+  - first:
+      213: 5938560836454135065
+    second: ExporGuns_9
+  - first:
+      213: -5841724079293852069
+    second: ExporGuns_10
+  - first:
+      213: 5488316444733712452
+    second: ExporGuns_11
+  - first:
+      213: -2953069551699930549
+    second: ExporGuns_12
+  - first:
+      213: -1454525667207340905
+    second: ExporGuns_13
+  - first:
+      213: -1998715351024460037
+    second: ExporGuns_14
+  - first:
+      213: -2443389357879864701
+    second: ExporGuns_15
+  - first:
+      213: -107447889114041199
+    second: ExporGuns_16
+  - first:
+      213: -7633065550078134022
+    second: ExporGuns_17
+  - first:
+      213: -5277670577543681595
+    second: ExporGuns_18
+  - first:
+      213: -4683746481274170273
+    second: ExporGuns_19
+  - first:
+      213: -4551299452134636927
+    second: ExporGuns_20
+  - first:
+      213: 1903729098160461262
+    second: ExporGuns_21
+  - first:
+      213: -8012789822672746633
+    second: ExporGuns_22
+  - first:
+      213: 1432260222496603837
+    second: ExporGuns_23
+  - first:
+      213: -6036432441935704045
+    second: ExporGuns_24
+  - first:
+      213: -8347086672753974414
+    second: ExporGuns_25
+  - first:
+      213: -2494068589130991520
+    second: ExporGuns_26
+  - first:
+      213: -1925690320512963270
+    second: ExporGuns_27
+  - first:
+      213: 6013131942966307833
+    second: ExporGuns_28
+  - first:
+      213: -5729516609303459185
+    second: ExporGuns_29
+  - first:
+      213: 4749110147304581263
+    second: ExporGuns_30
+  - first:
+      213: -9186037334089054973
+    second: ExporGuns_31
+  - first:
+      213: 5814021000674246780
+    second: ExporGuns_32
+  - first:
+      213: -8974575063341292265
+    second: ExporGuns_33
+  - first:
+      213: 3347230856999927433
+    second: ExporGuns_34
+  - first:
+      213: 492102563252559133
+    second: ExporGuns_35
+  - first:
+      213: 1623993701530250438
+    second: ExporGuns_36
+  - first:
+      213: -1554195317451970094
+    second: ExporGuns_37
+  - first:
+      213: -6565897132249195164
+    second: ExporGuns_38
+  - first:
+      213: 4664652135000317252
+    second: ExporGuns_39
+  - first:
+      213: 2081761749990055643
+    second: ExporGuns_40
+  - first:
+      213: -5411432777300747855
+    second: ExporGuns_41
+  - first:
+      213: -1023109564834563583
+    second: ExporGuns_42
+  - first:
+      213: 4687581368021156783
+    second: ExporGuns_43
+  - first:
+      213: 8215254818183212035
+    second: ExporGuns_44
+  - first:
+      213: 4768687219229926918
+    second: ExporGuns_45
+  - first:
+      213: -3159837020924787291
+    second: ExporGuns_46
+  - first:
+      213: -68524983410386782
+    second: ExporGuns_47
+  - first:
+      213: -1944031658277294467
+    second: ExporGuns_48
+  - first:
+      213: 71193219481143351
+    second: ExporGuns_49
+  - first:
+      213: 5067806187080535065
+    second: ExporGuns_50
+  - first:
+      213: 5435629829516124355
+    second: ExporGuns_51
+  - first:
+      213: -3402630575110849018
+    second: ExporGuns_52
+  - first:
+      213: -8823154814688448996
+    second: ExporGuns_53
+  - first:
+      213: -8342059433715537790
+    second: ExporGuns_54
+  - first:
+      213: 6088483136100794962
+    second: ExporGuns_55
+  - first:
+      213: -931306081196731180
+    second: ExporGuns_56
+  - first:
+      213: 8586785562030471297
+    second: ExporGuns_57
+  - first:
+      213: -3640913153435943752
+    second: ExporGuns_58
+  - first:
+      213: -55307209073877015
+    second: ExporGuns_59
+  - first:
+      213: 6706879197559723599
+    second: ExporGuns_60
+  - first:
+      213: -8589138119351595524
+    second: ExporGuns_61
+  - first:
+      213: 1769291827917998827
+    second: ExporGuns_62
+  - first:
+      213: 7804337572027358631
+    second: ExporGuns_63
+  - first:
+      213: -7053500957501756672
+    second: ExporGuns_64
+  - first:
+      213: 4718523200377656955
+    second: ExporGuns_65
+  - first:
+      213: -5064330055296537242
+    second: ExporGuns_66
+  - first:
+      213: 4464451524431107960
+    second: ExporGuns_67
+  - first:
+      213: -1168712443902156109
+    second: ExporGuns_68
+  - first:
+      213: -4041895413398119216
+    second: ExporGuns_69
+  - first:
+      213: 4701607280285818594
+    second: ExporGuns_70
+  - first:
+      213: 6020864863622743901
+    second: ExporGuns_71
+  - first:
+      213: 191256305551738967
+    second: ExporGuns_72
+  - first:
+      213: -3845796830818549891
+    second: ExporGuns_73
+  - first:
+      213: -3422573570442207773
+    second: ExporGuns_74
+  - first:
+      213: -5837069585843273515
+    second: ExporGuns_75
+  - first:
+      213: -1517537228234645811
+    second: ExporGuns_76
+  - first:
+      213: -4693518583689541897
+    second: ExporGuns_77
+  - first:
+      213: -4138881008855128604
+    second: ExporGuns_78
+  - first:
+      213: -8716852282403214292
+    second: ExporGuns_79
+  - first:
+      213: -9076125605146260305
+    second: ExporGuns_80
+  - first:
+      213: -6648250079052876873
+    second: ExporGuns_81
+  - first:
+      213: -1124615417236832851
+    second: ExporGuns_82
+  - first:
+      213: -5216089309317885377
+    second: ExporGuns_83
+  - first:
+      213: 1446617384949903566
+    second: ExporGuns_84
+  - first:
+      213: 8079004632350583699
+    second: ExporGuns_85
+  - first:
+      213: -8151902875084995654
+    second: ExporGuns_86
+  - first:
+      213: -1297693364751247647
+    second: ExporGuns_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExporGuns_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 569
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc62e6dbe57f0cbb0800000000000000
+      internalID: -4917658806811482419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 568
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8846c296277684cc0800000000000000
+      internalID: -3726614950560635768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 565
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e8ef023cb48d4d0800000000000000
+      internalID: -3109652241255068145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 563
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04617d31795375310800000000000000
+      internalID: 1393641532683654720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 561
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724c2400b7758a410800000000000000
+      internalID: 1488535862642918439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 559
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116b079c87bb25e50800000000000000
+      internalID: 6796700915105576465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 558
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12b088a7f64ad0d0800000000000000
+      internalID: -3397324939399744998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_7
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 555
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a761d7f8a6ac9cd0800000000000000
+      internalID: -2549980044356130906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 427
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bc837130bcf1990800000000000000
+      internalID: -7412983247493608668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 424
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91535eded910a6250800000000000000
+      internalID: 5938560836454135065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 422
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5618d196e60eeea0800000000000000
+      internalID: -5841724079293852069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 423
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448a9476aba6a2c40800000000000000
+      internalID: 5488316444733712452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_12
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 418
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4257e583e69407d0800000000000000
+      internalID: -2953069551699930549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_13
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 418
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c1b61bc9c70dbe0800000000000000
+      internalID: -1454525667207340905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_14
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 417
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe11175af22344e0800000000000000
+      internalID: -1998715351024460037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_15
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 415
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382d99b1356571ed0800000000000000
+      internalID: -2443389357879864701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 420
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194fd71d6b4428ef0800000000000000
+      internalID: -107447889114041199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 287
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8325ce257e11690800000000000000
+      internalID: -7633065550078134022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 285
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c96aff6292f1c6b0800000000000000
+      internalID: -5277670577543681595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_19
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 284
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54daad046dfffeb0800000000000000
+      internalID: -4683746481274170273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_20
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 283
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182c519134986d0c0800000000000000
+      internalID: -4551299452134636927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_21
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 281
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5dd6447876b6a10800000000000000
+      internalID: 1903729098160461262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_22
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 320
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777c9bf1c1adcc090800000000000000
+      internalID: -8012789822672746633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_23
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 280
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbef4db751960e310800000000000000
+      internalID: 1432260222496603837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_24
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 320
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31057cb2da84a3ca0800000000000000
+      internalID: -6036432441935704045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_25
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 278
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2732a1955e0392c80800000000000000
+      internalID: -8347086672753974414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_26
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 276
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068336315d9436dd0800000000000000
+      internalID: -2494068589130991520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_27
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 148
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3daa623bd29645e0800000000000000
+      internalID: -1925690320512963270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_28
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 148
+        width: 89
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbaf08a4afe27350800000000000000
+      internalID: 6013131942966307833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_29
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 246
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a44c7000bac70b0800000000000000
+      internalID: -5729516609303459185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_30
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 147
+        width: 87
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88ea41648a38e140800000000000000
+      internalID: 4749110147304581263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 148
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3054520e6b3a48080800000000000000
+      internalID: -9186037334089054973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_32
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 146
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7089ddcb4d8fa050800000000000000
+      internalID: 5814021000674246780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_33
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 144
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715a67b7787e37380800000000000000
+      internalID: -8974575063341292265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_34
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 143
+        width: 99
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ef4b4eab0c37e20800000000000000
+      internalID: 3347230856999927433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_35
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 192
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d5abb8cac44d600800000000000000
+      internalID: 492102563252559133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_36
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 196
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccae21daa5998610800000000000000
+      internalID: 1623993701530250438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_37
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 191
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d923bfd7936e6ae0800000000000000
+      internalID: -1554195317451970094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_38
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 147
+        width: 87
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dd788885f31e4a0800000000000000
+      internalID: -6565897132249195164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_39
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 189
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d1673076c2cb040800000000000000
+      internalID: 4664652135000317252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_40
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 160
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde172f2847e3ec10800000000000000
+      internalID: 2081761749990055643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_41
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9551f5f8ab6e4b0800000000000000
+      internalID: -5411432777300747855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_42
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 158
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a3bbd754f2dc1f0800000000000000
+      internalID: -1023109564834563583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_43
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 158
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa304a81b62ad0140800000000000000
+      internalID: 4687581368021156783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_44
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 157
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c60291bb2720270800000000000000
+      internalID: 8215254818183212035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 20
+        width: 101
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6062523a2c7cd2240800000000000000
+      internalID: 4768687219229926918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_46
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 20
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a546a398f00624d0800000000000000
+      internalID: -3159837020924787291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_47
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 20
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8959104ec8c0ff0800000000000000
+      internalID: -68524983410386782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_48
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 19
+        width: 94
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ea448b1896505e0800000000000000
+      internalID: -1944031658277294467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_49
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 116
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738079d1bddecf000800000000000000
+      internalID: 71193219481143351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 116
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c467370e6745640800000000000000
+      internalID: 5067806187080535065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_51
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 19
+        width: 84
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c063ded78c3f6b40800000000000000
+      internalID: 5435629829516124355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_52
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 19
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e72a4158d67c0d0800000000000000
+      internalID: -3402630575110849018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_53
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 111
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ea730717bdd8580800000000000000
+      internalID: -8823154814688448996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_54
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 25
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2886036a42d0b3c80800000000000000
+      internalID: -8342059433715537790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_55
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 109
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2528e347723ae7450800000000000000
+      internalID: 6088483136100794962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 87
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d49b1dad065313f0800000000000000
+      internalID: -931306081196731180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_57
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 100
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188774359f36a2770800000000000000
+      internalID: 8586785562030471297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_58
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 73
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc376ff6c0e87dc0800000000000000
+      internalID: -3640913153435943752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_59
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 91
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef12a9e2628b3ff0800000000000000
+      internalID: -55307209073877015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_60
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 48
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46110a781f931d50800000000000000
+      internalID: 6706879197559723599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_61
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 81
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd084d33604dc880800000000000000
+      internalID: -8589138119351595524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_62
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 79
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beacd0b1b89cd8810800000000000000
+      internalID: 1769291827917998827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_63
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 80
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7addcef2ca39e4c60800000000000000
+      internalID: 7804337572027358631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_64
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bea3d004eec1e90800000000000000
+      internalID: -7053500957501756672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_65
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 80
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7613f6d9df8b7140800000000000000
+      internalID: 4718523200377656955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_66
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 80
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d27bc85a2e7b9b0800000000000000
+      internalID: -5064330055296537242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_67
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 83
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877daaef10be4fd30800000000000000
+      internalID: 4464451524431107960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_68
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 83
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b222a07936e7cfe0800000000000000
+      internalID: -1168712443902156109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_69
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcdf11598d48e7c0800000000000000
+      internalID: -4041895413398119216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_70
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 74
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee93d649e67f3140800000000000000
+      internalID: 4701607280285818594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_71
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 71
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d574ddc81b86e8350800000000000000
+      internalID: 6020864863622743901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_72
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 71
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7580779b89a77a200800000000000000
+      internalID: 191256305551738967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_73
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 71
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fbcb4882cf0aac0800000000000000
+      internalID: -3845796830818549891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_74
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 72
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd624a8739080d0800000000000000
+      internalID: -3422573570442207773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_75
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 71
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0439643209efea0800000000000000
+      internalID: -5837069585843273515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_76
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 71
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce94a16eef90fae0800000000000000
+      internalID: -1517537228234645811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_77
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 72
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f68d7827b54ddeb0800000000000000
+      internalID: -4693518583689541897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_78
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 71
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e56493b6adbf86c0800000000000000
+      internalID: -4138881008855128604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_79
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 48
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cadc37805870780800000000000000
+      internalID: -8716852282403214292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_80
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 48
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac0e6879df1b0280800000000000000
+      internalID: -9076125605146260305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_81
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 42
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3371ce6cbacb3a0800000000000000
+      internalID: -6648250079052876873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_82
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 28
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadbbaa8c309460f0800000000000000
+      internalID: -1124615417236832851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_83
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 23
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f321561c86abc97b0800000000000000
+      internalID: -5216089309317885377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_84
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 23
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0f7dbd8da631410800000000000000
+      internalID: 1446617384949903566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_85
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 24
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bedf1a8e36e1070800000000000000
+      internalID: 8079004632350583699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExporGuns_86
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 26
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3c217968f9ede80800000000000000
+      internalID: -8151902875084995654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
