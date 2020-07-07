@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     private int countSkeleton =  0;
     public SpriteRenderer monster;
     private int totalSkeleton = 7;
-
+    private bool isInitScene = false;
 
     public GameObject tiroObjeto;
     public Transform tiroSpawn;
@@ -35,6 +35,11 @@ public class PlayerController : MonoBehaviour
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         monster.gameObject.SetActive(false);
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name.Equals("InitScene")) {
+            isInitScene = true;
+            monster.gameObject.SetActive(true);
+        }
     }
 
     void Update() {
@@ -42,9 +47,11 @@ public class PlayerController : MonoBehaviour
         Jump();
         Slider();
         Atirar();
-        Scene scene = SceneManager.GetActiveScene();
-        if (scene.name.Equals("InitScene")) {
+        if (isInitScene) {
             StayInsideScene();
+            isInitScene = true;
+        } else {
+            isInitScene = false;
         }
     }
 
@@ -78,18 +85,13 @@ public class PlayerController : MonoBehaviour
         }
         if (col.gameObject.name == "Skeleton") {
             Collision2DSideType collisionSide = col.GetContactSide();
-            if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left)
-            {
+            if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left) {
                 life = 0;
                 playerDead();
-              }
-            else
-            {
+            } else {
                 setJumpFalse();
                 this.countSkeleton += 1;
             }
-            
-                //MonoBehaviour.print(this.countSkeleton);
         }
         if (col.gameObject.name == "SkeletonVertical") {
             Collision2DSideType collisionSide = col.GetContactSide();
@@ -99,15 +101,15 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-
-        if (countSkeleton < totalSkeleton)
-        {
-            monster.gameObject.SetActive(false);
-        }
-        else {
+        if (!isInitScene) {
+            if (countSkeleton < totalSkeleton) {
+                monster.gameObject.SetActive(false);
+            } else {
+                monster.gameObject.SetActive(true);
+            }
+        } else {
             monster.gameObject.SetActive(true);
         }
-
     }
 
     void setJumpFalse() {
