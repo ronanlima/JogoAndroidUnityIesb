@@ -142,7 +142,7 @@ public class PlayerController : MonoBehaviour
             Destroy(playerSpriteRenderer.gameObject.GetComponent<CapsuleCollider2D>());
             Destroy(playerSpriteRenderer.gameObject.GetComponent<Rigidbody2D>());
             playerSpriteRenderer.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
-            // SceneManager.LoadScene("GameOver"); Deixar comentado até criarmos um contador. Esse trecho não deixa nem executar a animação de morrer, do player
+            SceneManager.LoadScene("MenuScene");
             return true;
         }
         return false;
