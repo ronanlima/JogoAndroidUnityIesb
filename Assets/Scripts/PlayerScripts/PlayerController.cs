@@ -112,14 +112,16 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (!isInitScene) {
-            if (countSkeleton < totalSkeleton) {
-                monster.gameObject.SetActive(false);
+        if(monster != null && monster.gameObject != null) {
+            if (!isInitScene) {
+                if (countSkeleton < totalSkeleton) {
+                    monster.gameObject.SetActive(false);
+                } else {
+                    monster.gameObject.SetActive(true);
+                }
             } else {
                 monster.gameObject.SetActive(true);
             }
-        } else {
-            monster.gameObject.SetActive(true);
         }
     }
 
