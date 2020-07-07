@@ -196,8 +196,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        if(Input.GetButtonDown("Fire2")){
-            //playerAnimator.SetBool("isSlide", true);
+        if(Input.GetButtonDown("Fire2") && !isJump ){
             tiroProximo = tiroIntervalo + Time.time;
 
             playerAnimator.SetBool("isShoot", true);
@@ -205,10 +204,10 @@ public class PlayerController : MonoBehaviour
             GameObject tiro = Instantiate(tiroObjeto, tiroSpawn.position, tiroSpawn.rotation);
 
             if(playerSpriteRenderer.flipX){
-                tiroSpawn.position = new Vector3(this.transform.position.x - 0.1f, this.transform.position.y, this.transform.position.z);
+                tiroSpawn.position = new Vector3(this.transform.position.x - 1.7f, this.transform.position.y - 0.41f, this.transform.position.z);
                 tiro.transform.eulerAngles = new Vector3(0, 0, 180);
             }else{
-                tiroSpawn.position = new Vector3(this.transform.position.x + 0.1f, this.transform.position.y, this.transform.position.z);
+                tiroSpawn.position = new Vector3(this.transform.position.x + 1.7f, this.transform.position.y - 0.41f, this.transform.position.z);
             }
         }
 
