@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
@@ -24,6 +21,11 @@ public class PlayerController : MonoBehaviour
     private Animator playerAnimator;
     public SpriteRenderer skeletonSpriteRenderer;
 
+    public GameObject tiroObjeto;
+    public Transform tiroSpawn;
+    public float tiroIntervalo = 0.05f;
+    private float tiroProximo = 0;
+
     void Start() {
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
         playerRigidBody = GetComponent<Rigidbody2D>();
@@ -34,6 +36,7 @@ public class PlayerController : MonoBehaviour
         Mover();
         Jump();
         Slider();
+        Atirar();
         Scene scene = SceneManager.GetActiveScene();
         if (scene.name.Equals("InitScene")) {
             StayInsideScene();
@@ -160,6 +163,33 @@ public class PlayerController : MonoBehaviour
             inSlide -= 1.7f * Time.deltaTime * slideForce;
             Vector3 movement = new Vector3(direction, 0f, 0f);
             transform.position += movement * Time.deltaTime * slideForce;
+        }
+    }
+
+    void Atirar()
+    {
+        if (playerDead()) {
+            return;
+        }
+
+        if(Input.GetButtonDown("Fire2")){
+            //playerAnimator.SetBool("isSlide", true);
+            tiroProximo = tiroIntervalo + Time.time;
+
+            playerAnimator.SetBool("isShoot", true);
+
+            GameObject tiro = Instantiate(tiroObjeto, tiroSpawn.position, tiroSpawn.rotation);
+
+            if(playerSpriteRenderer.flipX){
+                tiroSpawn.position = new Vector3(this.transform.position.x - 0.1f, this.transform.position.y, this.transform.position.z);
+                tiro.transform.eulerAngles = new Vector3(0, 0, 180);
+            }else{
+                tiroSpawn.position = new Vector3(this.transform.position.x + 0.1f, this.transform.position.y, this.transform.position.z);
+            }
+        }
+
+        if(Time.time > tiroProximo){
+             playerAnimator.SetBool("isShoot", false);
         }
     }
 }
