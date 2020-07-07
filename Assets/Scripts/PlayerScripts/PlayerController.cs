@@ -23,11 +23,16 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D playerRigidBody;
     private Animator playerAnimator;
     public SpriteRenderer skeletonSpriteRenderer;
+    private int countSkeleton =  0;
+    public SpriteRenderer monster;
+    private int totalSkeleton = 7;
+
 
     void Start() {
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        monster.gameObject.SetActive(false);
     }
 
     void Update() {
@@ -59,6 +64,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D col) {
+
         if (col.gameObject.layer == 8) {
             setJumpFalse();
         }
@@ -69,12 +75,18 @@ public class PlayerController : MonoBehaviour
         }
         if (col.gameObject.name == "Skeleton") {
             Collision2DSideType collisionSide = col.GetContactSide();
-            if (collisionSide == Collision2DSideType.Top) {
-                setJumpFalse();
-            } else if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left) {
+            if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left)
+            {
                 life = 0;
                 playerDead();
+              }
+            else
+            {
+                setJumpFalse();
+                this.countSkeleton += 1;
             }
+            
+                //MonoBehaviour.print(this.countSkeleton);
         }
         if (col.gameObject.name == "SkeletonVertical") {
             Collision2DSideType collisionSide = col.GetContactSide();
@@ -83,6 +95,16 @@ public class PlayerController : MonoBehaviour
                 playerDead();
             }
         }
+
+
+        if (countSkeleton < totalSkeleton)
+        {
+            monster.gameObject.SetActive(false);
+        }
+        else {
+            monster.gameObject.SetActive(true);
+        }
+
     }
 
     void setJumpFalse() {
