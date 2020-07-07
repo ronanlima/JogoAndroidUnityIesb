@@ -6,6 +6,9 @@ TagManager:
   tags:
   - PointNextScene
   - Collectable
+  - InimigoTag
+  - Undefined
+  - TiroTag
   layers:
   - Default
   - TransparentFX
