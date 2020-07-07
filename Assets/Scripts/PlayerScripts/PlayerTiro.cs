@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerTiro : MonoBehaviour
 {
     // Start is called before the first frame update
-    private float tiroSpeed = 10f;
+    private float tiroSpeed = 15f;
     private float tiroDestroy = 1.5f;
     void Start()
     {
