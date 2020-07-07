@@ -9,6 +9,8 @@ TagManager:
   - InimigoTag
   - Undefined
   - TiroTag
+  - TiroTag
+  - InimigoTag
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Espinho
   - Limbo
   - monster
-  - 
+  - YouWin
   - 
   - 
   - 
