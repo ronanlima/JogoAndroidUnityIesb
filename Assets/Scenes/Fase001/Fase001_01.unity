@@ -451,6 +451,14 @@ MonoBehaviour:
   jumpForce: 10
   slideForce: 6
   life: 100
+  door: {fileID: 0}
+  openedDoor: {fileID: 0}
+  closedDoor: {fileID: 0}
+  skeletonSpriteRenderer: {fileID: 0}
+  tiroObjeto: {fileID: 1117942252728141719, guid: 730d2b97903204716a14f27360789bf9,
+    type: 3}
+  tiroSpawn: {fileID: 1305200544}
+  tiroIntervalo: 1
 --- !u!50 &1305200547
 Rigidbody2D:
   serializedVersion: 4
@@ -509,7 +517,7 @@ GameObject:
   - component: {fileID: 1563411234}
   - component: {fileID: 1563411233}
   - component: {fileID: 1563411235}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

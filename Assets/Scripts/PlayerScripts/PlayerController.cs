@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
@@ -23,17 +20,28 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D playerRigidBody;
     private Animator playerAnimator;
     public SpriteRenderer skeletonSpriteRenderer;
+    private int countSkeleton =  0;
+    public SpriteRenderer monster;
+    private int totalSkeleton = 7;
+
+
+    public GameObject tiroObjeto;
+    public Transform tiroSpawn;
+    public float tiroIntervalo = 0.05f;
+    private float tiroProximo = 0;
 
     void Start() {
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
         playerRigidBody = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        monster.gameObject.SetActive(false);
     }
 
     void Update() {
         Mover();
         Jump();
         Slider();
+        Atirar();
         Scene scene = SceneManager.GetActiveScene();
         if (scene.name.Equals("InitScene")) {
             StayInsideScene();
@@ -59,6 +67,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D col) {
+
         if (col.gameObject.layer == 8) {
             setJumpFalse();
         }
@@ -69,12 +78,18 @@ public class PlayerController : MonoBehaviour
         }
         if (col.gameObject.name == "Skeleton") {
             Collision2DSideType collisionSide = col.GetContactSide();
-            if (collisionSide == Collision2DSideType.Top) {
-                setJumpFalse();
-            } else if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left) {
+            if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left)
+            {
                 life = 0;
                 playerDead();
+              }
+            else
+            {
+                setJumpFalse();
+                this.countSkeleton += 1;
             }
+            
+                //MonoBehaviour.print(this.countSkeleton);
         }
         if (col.gameObject.name == "SkeletonVertical") {
             Collision2DSideType collisionSide = col.GetContactSide();
@@ -83,6 +98,16 @@ public class PlayerController : MonoBehaviour
                 playerDead();
             }
         }
+
+
+        if (countSkeleton < totalSkeleton)
+        {
+            monster.gameObject.SetActive(false);
+        }
+        else {
+            monster.gameObject.SetActive(true);
+        }
+
     }
 
     void setJumpFalse() {
@@ -160,6 +185,33 @@ public class PlayerController : MonoBehaviour
             inSlide -= 1.7f * Time.deltaTime * slideForce;
             Vector3 movement = new Vector3(direction, 0f, 0f);
             transform.position += movement * Time.deltaTime * slideForce;
+        }
+    }
+
+    void Atirar()
+    {
+        if (playerDead()) {
+            return;
+        }
+
+        if(Input.GetButtonDown("Fire2")){
+            //playerAnimator.SetBool("isSlide", true);
+            tiroProximo = tiroIntervalo + Time.time;
+
+            playerAnimator.SetBool("isShoot", true);
+
+            GameObject tiro = Instantiate(tiroObjeto, tiroSpawn.position, tiroSpawn.rotation);
+
+            if(playerSpriteRenderer.flipX){
+                tiroSpawn.position = new Vector3(this.transform.position.x - 0.1f, this.transform.position.y, this.transform.position.z);
+                tiro.transform.eulerAngles = new Vector3(0, 0, 180);
+            }else{
+                tiroSpawn.position = new Vector3(this.transform.position.x + 0.1f, this.transform.position.y, this.transform.position.z);
+            }
+        }
+
+        if(Time.time > tiroProximo){
+             playerAnimator.SetBool("isShoot", false);
         }
     }
 }
