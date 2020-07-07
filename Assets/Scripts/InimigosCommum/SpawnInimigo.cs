@@ -19,7 +19,7 @@ public class SpawnInimigo : MonoBehaviour
     }
 
     void GerarInimigo(){
-        Instantiate (inimigoObject, transform.position, transform.rotation);
+        GameObject tiro =  Instantiate (inimigoObject, transform.position, transform.rotation);
         Debug.Log("Gerando");
     }
 }
