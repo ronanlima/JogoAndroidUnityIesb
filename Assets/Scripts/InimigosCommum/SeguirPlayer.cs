@@ -84,10 +84,10 @@ public class SeguirPlayer : MonoBehaviour
         
 
         Scene scene = SceneManager.GetActiveScene();
-        if (scene.name.Equals("Fase003_01")) {
+        /*if (scene.name.Equals("Fase003_01")) {
             SceneManager.LoadScene("MenuScene");
             return;
-        }
+        }*/
 
         if (scene.name.Equals("Fase003_01")) {
             youWin.gameObject.SetActive(true);
