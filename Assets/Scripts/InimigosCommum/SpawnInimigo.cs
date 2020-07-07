@@ -4,29 +4,22 @@ using UnityEngine;
 public class SpawnInimigo : MonoBehaviour
 {
     public GameObject inimigoObject;
-    public Transform inimigoSpawn;// Start is called before the first frame update
 
     public float timeSpawn = 10;
-    public int contTimeSpawn = 5; 
+    public int delaySpawn = 5; 
     void Start()
     {
-        
+        InvokeRepeating ("GerarInimigo", delaySpawn, timeSpawn);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(timeSpawn<=0){
-            GerarInimigo();
-            timeSpawn = 10f;
-        }else{
-            timeSpawn -= 1 * Time.deltaTime;
-        }
 
-        Debug.Log(timeSpawn);
     }
 
     void GerarInimigo(){
-        GameObject zumb = Instantiate(inimigoObject, inimigoSpawn.position, inimigoSpawn.rotation);
+        GameObject tiro =  Instantiate (inimigoObject, transform.position, transform.rotation);
+        Debug.Log("Gerando");
     }
 }
