@@ -79,11 +79,10 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.layer == 8) {
             setJumpFalse();
         }
-        // if (col.gameObject.layer == 9) {
-        //     life = 0;
-        //     playerDead();
-            
-        // }
+        if (col.gameObject.layer == 9) {
+            life = 0;
+            playerDead();   
+        }
         if (col.gameObject.layer == 10)
         {
             life = 0;

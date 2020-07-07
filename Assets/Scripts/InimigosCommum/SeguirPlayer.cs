@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SeguirPlayer : MonoBehaviour
 {
@@ -75,6 +76,11 @@ public class SeguirPlayer : MonoBehaviour
         isDead = true;
         inimigoAnimator.SetTrigger("tgrDead");
         Destroy(gameObject, 2f);
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name.Equals("Fase003_01")) {
+            SceneManager.LoadScene("MenuScene");
+            return;
+        }
     }
 }
 
