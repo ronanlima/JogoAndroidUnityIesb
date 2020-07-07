@@ -28,7 +28,5 @@ public class SeguirPlayer : MonoBehaviour
         }
 
         inimigoAnimator.SetBool("isAtack", (distancia<5f));
-
-        Debug.Log(distancia);
     }
 }
