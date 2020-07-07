@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 163799394}
   - component: {fileID: 163799400}
   m_Layer: 0
-  m_Name: PlayerIdle
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,4 +157,12 @@ MonoBehaviour:
   jumpForce: 6
   slideForce: 6
   life: 100
+  door: {fileID: 0}
+  openedDoor: {fileID: 0}
+  closedDoor: {fileID: 0}
   skeletonSpriteRenderer: {fileID: 0}
+  monster: {fileID: 0}
+  tiroObjeto: {fileID: 1117942252728141719, guid: 730d2b97903204716a14f27360789bf9,
+    type: 3}
+  tiroSpawn: {fileID: 0}
+  tiroIntervalo: 0.02
