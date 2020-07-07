@@ -20,10 +20,14 @@ public class SeguirPlayer : MonoBehaviour
 
     public bool isMonster = false;
 
+    public GameObject youWin;
+
+
     void Start()
     {
         renderInimigo = GetComponent<SpriteRenderer>();
         inimigoAnimator = GetComponent<Animator>();
+        youWin.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -65,6 +69,7 @@ public class SeguirPlayer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col) {
         Debug.Log(col.gameObject.name);
+
         if (col.gameObject.layer == 10) {
             lifeInimigo = 0;
             InimigoDead();
@@ -75,6 +80,7 @@ public class SeguirPlayer : MonoBehaviour
         isDead = true;
         inimigoAnimator.SetTrigger("tgrDead");
         Destroy(gameObject, 2f);
+        youWin.gameObject.SetActive(true);
     }
 }
 
