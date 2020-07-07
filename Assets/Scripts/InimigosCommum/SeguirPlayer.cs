@@ -3,30 +3,67 @@
 public class SeguirPlayer : MonoBehaviour
 {
 
+
     private Animator inimigoAnimator;
     public Transform localPlayer;
+
+    private SpriteRenderer renderInimigo;
+    private float ultimoMovimento;
     public float velocidade;
+
+    public int lifeInimigo = 100;
+    public float distAtack = 5f;
+    public float distPerseguicao = 16f;
+    public int danoTiro = 50;
+
+    private bool isDead = false;
 
     void Start()
     {
+        renderInimigo = GetComponent<SpriteRenderer>();
         inimigoAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(isDead){return;}
+
         float distancia = Vector2.Distance(transform.position, localPlayer.position);
 
-        if(distancia > 5f && distancia<14){
+        if(distancia > distAtack && distancia<distPerseguicao){
             transform.position = Vector2.MoveTowards(transform.position, localPlayer.position, velocidade * Time.deltaTime);
             inimigoAnimator.SetBool("isWalking", true);
 
-            inimigoAnimator.SetBool("isAtack", (distancia<5f));
+            inimigoAnimator.SetBool("isAtack", (distancia<distAtack));
 
+            renderInimigo.flipX = transform.position.x < ultimoMovimento? true: false;
+
+            ultimoMovimento = transform.position.x;
         }else{
             inimigoAnimator.SetBool("isWalking", false);
         }
 
-        inimigoAnimator.SetBool("isAtack", (distancia<5f));
+        inimigoAnimator.SetBool("isAtack", (distancia<distAtack));
+
+        if(lifeInimigo<=0){
+            InimigoDead();
+        }
+
+    }
+
+     private void OnTriggerEnter2D(Collider2D collider){
+
+        Debug.Log("Inimigo:");
+        if(collider.gameObject.CompareTag("TiroTag")){
+            lifeInimigo -= danoTiro;
+        }
+    }
+
+    void InimigoDead() {
+        isDead = true;
+        inimigoAnimator.SetTrigger("tgrDead");
+        Destroy(gameObject, 2f);
     }
 }
+

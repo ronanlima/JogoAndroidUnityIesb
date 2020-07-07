@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerTiro : MonoBehaviour
 {
@@ -18,7 +16,10 @@ public class PlayerTiro : MonoBehaviour
         transform.Translate(Vector2.right * tiroSpeed * Time.deltaTime);
     }
 
-    private void OnTriggerEnter2D(){
-        //Destroy(gameObject);
+    private void OnTriggerEnter2D(Collider2D collider){
+
+        if(collider.gameObject.CompareTag("InimigoTag")){
+            Destroy(gameObject);
+        }
     }
 }
