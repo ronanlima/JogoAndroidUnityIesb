@@ -144,7 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ded1c909a10c4fb889584089a2f1890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localPlayer: {fileID: 0}
+  localPlayer: {fileID: 8486071491290285550, guid: d08983c9a2df34f58969a5e223dfb06d,
+    type: 3}
   velocidade: 2
   lifeInimigo: 100
   distAtack: 5
