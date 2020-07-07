@@ -81,15 +81,19 @@ public class SeguirPlayer : MonoBehaviour
         isDead = true;
         inimigoAnimator.SetTrigger("tgrDead");
         Destroy(gameObject, 2f);
-<<<<<<< HEAD
-        youWin.gameObject.SetActive(true);
-=======
+        
+
         Scene scene = SceneManager.GetActiveScene();
         if (scene.name.Equals("Fase003_01")) {
             SceneManager.LoadScene("MenuScene");
             return;
         }
->>>>>>> 19a6759f983170f7b0adad17cb179a134a2c85f5
+
+        if (scene.name.Equals("Fase003_01")) {
+            youWin.gameObject.SetActive(true);
+        }
+        
+
     }
 }
 
