@@ -89,6 +89,11 @@ public class PlayerController : MonoBehaviour
             playerDead();
 
         }
+        if (col.gameObject.layer == 11)
+        {
+            life = 0;
+            playerDead();
+        }
         if (col.gameObject.name == "Skeleton") {
             Collision2DSideType collisionSide = col.GetContactSide();
             if (collisionSide == Collision2DSideType.Right || collisionSide == Collision2DSideType.Left) {
