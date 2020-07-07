@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
             isInitScene = true;
             monster.gameObject.SetActive(true);
         }
+        countSkeleton = totalSkeleton;
     }
 
     void Update() {
@@ -80,8 +81,7 @@ public class PlayerController : MonoBehaviour
         }
         if (col.gameObject.layer == 9) {
             life = 0;
-            playerDead();
-            
+            playerDead();   
         }
         if (col.gameObject.layer == 10)
         {
@@ -112,14 +112,16 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (!isInitScene) {
-            if (countSkeleton < totalSkeleton) {
-                monster.gameObject.SetActive(false);
+        if(monster != null && monster.gameObject != null) {
+            if (!isInitScene) {
+                if (countSkeleton < totalSkeleton) {
+                    monster.gameObject.SetActive(false);
+                } else {
+                    monster.gameObject.SetActive(true);
+                }
             } else {
                 monster.gameObject.SetActive(true);
             }
-        } else {
-            monster.gameObject.SetActive(true);
         }
     }
 
