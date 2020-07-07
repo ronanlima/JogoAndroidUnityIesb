@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
             isInitScene = true;
             monster.gameObject.SetActive(true);
         }
+        countSkeleton = totalSkeleton;
     }
 
     void Update() {
@@ -78,11 +79,11 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.layer == 8) {
             setJumpFalse();
         }
-        if (col.gameObject.layer == 9) {
-            life = 0;
-            playerDead();
+        // if (col.gameObject.layer == 9) {
+        //     life = 0;
+        //     playerDead();
             
-        }
+        // }
         if (col.gameObject.layer == 10)
         {
             life = 0;

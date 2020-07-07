@@ -14739,7 +14739,7 @@ GameObject:
   - component: {fileID: 939891179}
   - component: {fileID: 939891178}
   - component: {fileID: 939891177}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Limbo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33228,23 +33228,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4900997618395637337, guid: b84de65229110486fad81fbba11bbb1c,
         type: 3}
-      propertyPath: m_Layer
-      value: 11
+      propertyPath: m_TagString
+      value: InimigoTag
       objectReference: {fileID: 0}
     - target: {fileID: 4900997618395637340, guid: b84de65229110486fad81fbba11bbb1c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.41
+      value: 10.753
       objectReference: {fileID: 0}
     - target: {fileID: 4900997618395637340, guid: b84de65229110486fad81fbba11bbb1c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.96
+      value: 2.8809
       objectReference: {fileID: 0}
     - target: {fileID: 4900997618395637340, guid: b84de65229110486fad81fbba11bbb1c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.025457
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900997618395637337, guid: b84de65229110486fad81fbba11bbb1c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4900997618395637340, guid: b84de65229110486fad81fbba11bbb1c,
         type: 3}
@@ -33296,11 +33301,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 3.9589312
       objectReference: {fileID: 0}
+    - target: {fileID: 4900997618395637341, guid: b84de65229110486fad81fbba11bbb1c,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4900997618395637343, guid: b84de65229110486fad81fbba11bbb1c,
         type: 3}
       propertyPath: localPlayer
       value: 
       objectReference: {fileID: 90671520}
+    - target: {fileID: 4900997618395637343, guid: b84de65229110486fad81fbba11bbb1c,
+        type: 3}
+      propertyPath: isMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4900997618395637343, guid: b84de65229110486fad81fbba11bbb1c,
         type: 3}
       propertyPath: lifeInimigo

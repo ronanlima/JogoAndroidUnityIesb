@@ -18,6 +18,8 @@ public class SeguirPlayer : MonoBehaviour
 
     private bool isDead = false;
 
+    public bool isMonster = false;
+
     void Start()
     {
         renderInimigo = GetComponent<SpriteRenderer>();
@@ -25,8 +27,7 @@ public class SeguirPlayer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         if(isDead){return;}
 
         float distancia = Vector2.Distance(transform.position, localPlayer.position);
@@ -37,7 +38,9 @@ public class SeguirPlayer : MonoBehaviour
 
             inimigoAnimator.SetBool("isAtack", (distancia<distAtack));
 
-            renderInimigo.flipX = transform.position.x < ultimoMovimento? true: false;
+            if (!isMonster) {
+                renderInimigo.flipX = transform.position.x < ultimoMovimento? true: false;
+            }
 
             ultimoMovimento = transform.position.x;
         }else{
@@ -57,6 +60,14 @@ public class SeguirPlayer : MonoBehaviour
         Debug.Log("Inimigo:");
         if(collider.gameObject.CompareTag("TiroTag")){
             lifeInimigo -= danoTiro;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D col) {
+        Debug.Log(col.gameObject.name);
+        if (col.gameObject.layer == 10) {
+            lifeInimigo = 0;
+            InimigoDead();
         }
     }
 
