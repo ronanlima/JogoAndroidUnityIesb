@@ -21,14 +21,14 @@ public class SeguirPlayer : MonoBehaviour
 
     public bool isMonster = false;
 
-    public GameObject youWin;
+    // public GameObject youWin;
 
 
     void Start()
     {
         renderInimigo = GetComponent<SpriteRenderer>();
         inimigoAnimator = GetComponent<Animator>();
-        youWin.gameObject.SetActive(false);
+        // youWin.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -89,9 +89,9 @@ public class SeguirPlayer : MonoBehaviour
             return;
         }
 
-        if (scene.name.Equals("Fase003_01")) {
-            youWin.gameObject.SetActive(true);
-        }
+        // if (scene.name.Equals("Fase003_01")) {
+        //     youWin.gameObject.SetActive(true);
+        // }
         
 
     }

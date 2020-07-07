@@ -112,7 +112,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(monster != null && monster.gameObject != null) {
+        if(!SceneManager.GetActiveScene().name.Equals("Fase001_01") && monster != null && monster.gameObject != null) {
             if (!isInitScene) {
                 if (countSkeleton < totalSkeleton) {
                     monster.gameObject.SetActive(false);
